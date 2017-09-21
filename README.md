@@ -1,10 +1,10 @@
 
-<h1>Star Wars Fan Site Project</h1>
+<h1>Tron Fan Site Project</h1>
 
 Live Site Here: <a href="https://clockwerkz.github.io/fansite/">Star Wars Fan Site</a>
 
 This is my 1-Week Build Challenge entry offered by Faith Wallace. The project goal is to build a simple page
-that is dedicated to a movie, book or television series. I've decided to do my page based on the Star Wars franchise.
+that is dedicated to a movie, book or television series. I've decided to do my page based on the Tron franchise.
 
 <h2>Day 1</h2>
 The starting day is basically creating the git repo and building the file structure for the project. The instructions are to create
