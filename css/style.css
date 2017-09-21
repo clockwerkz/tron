@@ -7,3 +7,12 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
+
+#cover {
+    height: 100vh;
+    color: #BFFFFF;
+    background: url("/img/tron-legacy.jpg");
+    border-bottom: 2px solid #BFFFFF;
+    margin-bottom: 50px;
+    
+}
