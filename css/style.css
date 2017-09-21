@@ -15,7 +15,7 @@ h1 {
 #cover {
     height: 100vh;
     color: #BFFFFF;
-    background: url("/img/tron-legacy.jpg") no-repeat center;
+    background: url("../img/tron-legacy.jpg") no-repeat center;
     background-size: cover;
     border-bottom: 2px solid #BFFFFF;
     margin-bottom: 50px;
