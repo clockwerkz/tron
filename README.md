@@ -23,4 +23,6 @@ Day 3 is about working on the next section after the hero section. We are to fin
 The idea is to take the chosen images and edit them so that they are all the same size. Then, divide 12 by the number of images you have and lay them out based on that number (number of colums). If there are too many images, make another row. <br>
 You may add a title for each image. Then, provide a link at the bottom of the section where one may purchase the books, DVDs, etc. <br>
 The email provides a couple of examples to look at for reference. <br>
-Ok, time to get to work!
+Ok, time to get to work!<br>
+Here's a quick sketch of the layout I'm thinking of doing for this section:<br>
+(https://github.com/clockwerkz/tron/blob/master/resources/movie_section_stetch.jpg?raw=true)
