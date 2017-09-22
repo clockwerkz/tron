@@ -16,3 +16,11 @@ I went ahead and added the file structure and my initial index.html file. The tw
 <h2>Day 2</h2>
 Today the assignment requirement was to first create a simple section with some sort of selector (the example used an id of "cover", so I went with that). Inside the section are two wrapper divs to frame the section up. The second requirement was to find an image about our subject and use that as the background of the section. Once that was done, we were to select two or three colors and use one of them to create a bottom border for the section. I added a little margin to the bottom of the section temporarily to create some division.<br>
 Next, Day 3!
+
+<h2>Day 3</h2>
+These are the instructions for Day 3:<br>
+Day 3 is about working on the next section after the hero section. We are to find, resize and insert images, and include a live link. <br>
+The idea is to take the chosen images and edit them so that they are all the same size. Then, divide 12 by the number of images you have and lay them out based on that number (number of colums). If there are too many images, make another row. <br>
+You may add a title for each image. Then, provide a link at the bottom of the section where one may purchase the books, DVDs, etc. <br>
+The email provides a couple of examples to look at for reference. <br>
+Ok, time to get to work!
