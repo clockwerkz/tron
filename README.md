@@ -25,4 +25,5 @@ You may add a title for each image. Then, provide a link at the bottom of the se
 The email provides a couple of examples to look at for reference. <br>
 Ok, time to get to work!<br>
 Here's a quick sketch of the layout I'm thinking of doing for this section:<br>
-(https://github.com/clockwerkz/tron/blob/master/resources/movie_section_stetch.jpg?raw=true)
+(https://github.com/clockwerkz/tron/blob/master/resources/movie_section_stetch.jpg?raw=true)<br>
+I just wrapped up Day 3, moving on to Day 4 tomorrow. (09/21/17)
