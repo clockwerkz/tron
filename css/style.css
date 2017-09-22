@@ -7,10 +7,20 @@
 /* Color Choice: #BFFFFF                  */
 /******************************************/
 
-h1 {
+p, a {
+    font-family: 'Open Sans', sans-serif;  
+}
+
+
+h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
+
+
+/******************************************/
+/*            HERO SECTION                */
+/******************************************/
 
 #cover {
     height: 100vh;
@@ -18,6 +28,70 @@ h1 {
     background: url("../img/tron-legacy.jpg") no-repeat center;
     background-size: cover;
     border-bottom: 2px solid #BFFFFF;
-    margin-bottom: 50px;
-    
 }
+
+
+/******************************************/
+/*           MEDIA SECTION                */
+/******************************************/
+
+.media-section {
+    box-sizing: border-box;
+    padding-top: 80px;
+    background-color: #0D3E45;
+}
+.media-section h1 {
+    text-align: center;
+    color: #BFFFFF;
+    margin-bottom: 80px;
+}
+.media-section h1:after {
+    padding-top: 25px;
+    content: "";
+    width: 90px;
+    border-bottom: 5px solid #BFFFFF;
+    display: block;
+    margin: 0 auto;
+}
+
+.media-section p {
+    color: #BFFFFF;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.media-section a:link, .media-section a:visited {
+    color: #BFFFFF;
+}
+
+.media-section a:hover, .media-section a:active {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.purchase {
+    padding-bottom: 40px;
+}
+
+.purchase p {
+    margin: 60px 0 30px 0;
+
+}
+
+.purchase a:link, .purchase a:visited {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #BFFFFF;
+    text-align: center;
+    transition: background-color .2s, color .2s;
+}
+
+.purchase a:hover, .purchase a:active {
+    background-color:#BFFFFF;
+    color: #0D3E45;
+    font-weight: bold;
+}
+
