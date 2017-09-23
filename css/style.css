@@ -44,6 +44,10 @@ iframe {
     text-decoration: none;
 }
 
+section {
+    box-sizing: border-box;
+}
+
 /******************************************/
 /*            HERO SECTION                */
 /******************************************/
@@ -69,31 +73,35 @@ iframe {
 .media-section {
     box-sizing: border-box;
     padding-top: 80px;
-    background-color: #051F22;
+    background-color: #D1E7EB;
 }
+
+
+
+
 .media-section h1 {
     text-align: center;
-    color: #BFFFFF;
+    color: #3d3d3d;
     margin-bottom: 80px;
 }
 .media-section h1:after {
     padding-top: 25px;
     content: "";
     width: 90px;
-    border-bottom: 5px solid #BFFFFF;
+    border-bottom: 5px solid #3d3d3d;
     display: block;
     margin: 0 auto;
 }
 
 .media-section p {
-    color: #BFFFFF;
+    color: #3d3d3d;
     width: 100%;
     text-align: center;
     font-size: 1.3rem;
 }
 
 .media-section a:link, .media-section a:visited {
-    color: #BFFFFF;
+    color: #3d3d3d;
 }
 
 .media-section a:hover, .media-section a:active {
@@ -102,7 +110,7 @@ iframe {
 }
 
 .purchase {
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 .purchase p {
@@ -111,13 +119,13 @@ iframe {
 }
 
 .purchase-button:link, .purchase-button:visited {
-    border: 1px solid #BFFFFF;
+    border: 1px solid #3d3d3d;
     transition: background-color .2s, color .2s;
 }
 
 .purchase-button:hover, .purchase-button:active {
-    background-color:#BFFFFF;
-    color: #0D3E45;
+    background-color:#3d3d3d;
+    color: #BFFFFF;
     font-weight: bold;
 }
 
@@ -127,8 +135,8 @@ iframe {
 
 .movie-section {
     padding: 80px 0px 40px 0;
-    color: #3d3d3d;
-    background-color: #D1E7EB;
+    color: #BFFFFF;
+    background-color: #051F22;
 }
 
 .movie-section h1 {
@@ -156,21 +164,26 @@ iframe {
 .movie {
     max-width: 560px;
     max-height: 315px;
-    margin: 0 auto;
+    margin: 0 auto 60px auto;
 }
 
 .quiz-button:link, .quiz-button:visited {
-    border: 1px solid #0D3E45;
-    background-color:#BFFFFF;
-    color: #0D3E45;
+    border: 1px solid #BFFFFF;
+    background-color:#051F22;
+    color: #BFFFFF;
     font-weight: bold;
 }
 
 .quiz-button:hover, .quiz-button:active {
     border: 1px solid #BFFFFF;
-    background-color:#0D3E45;
-    color: #BFFFFF;
+    background-color:#BFFFFF;
+    color: #051F22;
     font-weight: bold;
+}
+
+.quiz {
+    margin-bottom: 30px;
+}
 
 
 
