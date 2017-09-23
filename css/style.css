@@ -11,6 +11,10 @@
 /* Color Choice: #BFFFFF                  */
 /******************************************/
 
+/******************************************/
+/*     COMMON RESOURCES SECTION           */
+/******************************************/
+
 p, a {
     font-family: 'Open Sans', sans-serif;  
 }
@@ -26,6 +30,19 @@ iframe {
     max-height: 315px;
 }
 
+.link-button {
+    font-size: 1.3rem;
+}
+
+.link-button:link, .link-button:visited{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: background-color .2s, color .2s;
+    text-decoration: none;
+}
 
 /******************************************/
 /*            HERO SECTION                */
@@ -93,17 +110,12 @@ iframe {
 
 }
 
-.purchase a:link, .purchase a:visited {
-    display: block;
-    margin: 0 auto;
-    width: 300px;
-    padding: 20px;
+.purchase-button:link, .purchase-button:visited {
     border: 1px solid #BFFFFF;
-    text-align: center;
     transition: background-color .2s, color .2s;
 }
 
-.purchase a:hover, .purchase a:active {
+.purchase-button:hover, .purchase-button:active {
     background-color:#BFFFFF;
     color: #0D3E45;
     font-weight: bold;
@@ -114,10 +126,65 @@ iframe {
 /******************************************/
 
 .movie-section {
-    padding-top: 80px;
+    padding: 80px 0px 40px 0;
     color: #3d3d3d;
+    background-color: #D1E7EB;
 }
 
 .movie-section h1 {
     text-align: center;
+}
+
+.movie-section h1:after {
+    padding-top: 25px;
+    content: "";
+    width: 90px;
+    border-bottom: 5px solid #3d3d3d;
+    display: block;
+    margin: 0 auto;
+}
+
+.movie-section p {
+    text-align: center;
+    padding: 30px 0;
+    max-width: 60%;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    margin: 0 auto;
+}
+
+.movie {
+    max-width: 560px;
+    max-height: 315px;
+    margin: 0 auto;
+}
+
+.quiz-button:link, .quiz-button:visited {
+    border: 1px solid #0D3E45;
+    background-color:#BFFFFF;
+    color: #0D3E45;
+    font-weight: bold;
+}
+
+.quiz-button:hover, .quiz-button:active {
+    border: 1px solid #BFFFFF;
+    background-color:#0D3E45;
+    color: #BFFFFF;
+    font-weight: bold;
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+/******************************************/
+/*       MOVIE SECTION MEDIA QUERY        */
+/******************************************/
+
+    .movie-section p {
+        margin: 0;
+        max-width: 100%;
+    }
 }
