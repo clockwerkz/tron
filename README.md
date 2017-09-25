@@ -34,3 +34,6 @@ So I just figured it out. I tried various suggestions that I found on stack over
 The next request was to provide a background color, or use an image or pattern. I provided a light toned color for now; I'll come back to this on the weekend and find an image to use.<br>
 The last request (optional) is to find a fun quiz based on the series and post a link. I found a "Which TRON character are you most like?" and linked it. <br>
 Day 5 is next: Tomorrow will be a jammed packed family day so there's a good chance I will not be able to work on the page, but I will definitely pick it up the following day. (09/22/2017)
+
+<h2>Day 5</h2>
+Day 5 is about adding a section with facts about our series. Update coming soon!
