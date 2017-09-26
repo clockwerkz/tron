@@ -11,7 +11,6 @@ The starting day is basically creating the git repo and building the file struct
 the file folders, and download bootstrap for use as the framework, and font-awesome for icons. Finally, we are to create our initial
 index.html page, and include two or three fonts to use in the page and link them in the index file.<br>
 ---------<br>
-I went ahead and added the file structure and my initial index.html file. The two fonts I decided on using are Montserrat for the Headlines, and Open-Sans for the body text. I might change that, but for now I think I'll go with those. I copied the font-awesome resources into my css folder, and opted to use the bootstrap cdn instead of downloading the code. I also created a style.css and linked it in the index file. On to day 2!
 
 <h2>Day 2</h2>
 Today the assignment requirement was to first create a simple section with some sort of selector (the example used an id of "cover", so I went with that). Inside the section are two wrapper divs to frame the section up. The second requirement was to find an image about our subject and use that as the background of the section. Once that was done, we were to select two or three colors and use one of them to create a bottom border for the section. I added a little margin to the bottom of the section temporarily to create some division.<br>
@@ -36,4 +35,4 @@ The last request (optional) is to find a fun quiz based on the series and post a
 Day 5 is next: Tomorrow will be a jammed packed family day so there's a good chance I will not be able to work on the page, but I will definitely pick it up the following day. (09/22/2017)
 
 <h2>Day 5</h2>
-Day 5 is about adding a section with facts about our series. Update coming soon!
+Day 5 is about adding a section with facts about our series. The assignment is to create a list with either facts or memorable quotes from the series. I chose to go with some fun facts. 

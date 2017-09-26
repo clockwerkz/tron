@@ -11,6 +11,8 @@
 /* Color Choice: #BFFFFF                  */
 /******************************************/
 
+
+
 /******************************************/
 /*     COMMON RESOURCES SECTION           */
 /******************************************/
@@ -24,6 +26,7 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
+
 
 iframe {
     max-width: 560px;
@@ -48,6 +51,33 @@ section {
     box-sizing: border-box;
 }
 
+.light-lettering {
+    text-align: center;
+}
+
+.light-lettering:after {
+    padding-top: 40px;
+    content: "";
+    width: 90px;
+    border-bottom: 5px solid #BFFFFF;
+    display: block;
+    margin: 0 auto;
+}
+
+.dark-lettering {
+    text-align: center;
+    color: #3d3d3d;
+    margin-bottom: 80px;
+}
+.dark-lettering:after {
+    padding-top: 40px;
+    content: "";
+    width: 90px;
+    border-bottom: 5px solid #3d3d3d;
+    display: block;
+    margin: 0 auto;
+}
+
 /******************************************/
 /*            HERO SECTION                */
 /******************************************/
@@ -63,6 +93,7 @@ section {
 #cover h1 {
     font-family: 'Tron', 'Montserrant', sans-serif;
     padding: 14% 0 0 5%;
+    font-size: 3rem;
 }
 
 
@@ -74,23 +105,6 @@ section {
     box-sizing: border-box;
     padding-top: 80px;
     background-color: #D1E7EB;
-}
-
-
-
-
-.media-section h1 {
-    text-align: center;
-    color: #3d3d3d;
-    margin-bottom: 80px;
-}
-.media-section h1:after {
-    padding-top: 25px;
-    content: "";
-    width: 90px;
-    border-bottom: 5px solid #3d3d3d;
-    display: block;
-    margin: 0 auto;
 }
 
 .media-section p {
@@ -139,15 +153,15 @@ section {
     background-color: #051F22;
 }
 
-.movie-section h1 {
+.movie-section h2 {
     text-align: center;
 }
 
-.movie-section h1:after {
+.movie-section h2:after {
     padding-top: 25px;
     content: "";
     width: 90px;
-    border-bottom: 5px solid #3d3d3d;
+    border-bottom: 5px solid #BFFFFF;
     display: block;
     margin: 0 auto;
 }
@@ -185,7 +199,45 @@ section {
     margin-bottom: 30px;
 }
 
+/******************************************/
+/*           FUN FACTS SECTION            */
+/******************************************/
 
+.facts-section {
+    box-sizing: border-box;
+    padding-top: 80px;
+    background-color: #D1E7EB;
+    border-bottom: 2px solid #BFFFFF;
+}
+
+.facts-section h3 {
+    text-align:center;
+    padding-bottom: 20px;
+}
+
+.facts-section ul {
+    list-style: none;
+}
+
+.facts-section ul li {
+    padding-top: 20px;
+}
+
+.bottom-image {
+    margin-top: 40px;
+    max-width: 70%;
+}
+
+
+
+/******************************************/
+/*             FOOTER SECTION             */
+/******************************************/
+
+footer {
+    height: 50px;
+    background-color: #062425;
+}
 
 
 
@@ -193,11 +245,22 @@ section {
 @media (max-width: 600px) {
 
 /******************************************/
-/*       MOVIE SECTION MEDIA QUERY        */
+/*             MOVIE SECTION              */
 /******************************************/
 
     .movie-section p {
         margin: 0;
         max-width: 100%;
     }
+
+/******************************************/
+/*           FUN FACTS SECTION            */
+/******************************************/
+
+    .bottom-image {
+        max-width: 100%;
+    }
+
 }
+
+
