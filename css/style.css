@@ -214,6 +214,10 @@ section {
     text-align:center;
     padding-bottom: 20px;
 }
+.facts {
+    background-color: #E0FFFF;
+    padding: 40px 20px 40px 0;
+}
 
 .facts-section ul {
     list-style: none;
@@ -221,6 +225,7 @@ section {
 
 .facts-section ul li {
     padding-top: 20px;
+    font-size: 1.3rem;
 }
 
 .bottom-image {
