@@ -206,7 +206,7 @@ section {
 .facts-section {
     box-sizing: border-box;
     padding-top: 80px;
-    background-color: #D1E7EB;
+    background: linear-gradient(rgba(140, 219, 229, 1.0), rgba(237, 246, 247, 1));
     border-bottom: 2px solid #BFFFFF;
 }
 
