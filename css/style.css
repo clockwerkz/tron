@@ -239,7 +239,7 @@ section {
 }
 
 .facts-section ul {
-    list-style: none;
+    list-style: circle; 
 }
 
 .facts-section ul li {
