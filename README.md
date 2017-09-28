@@ -35,4 +35,10 @@ The last request (optional) is to find a fun quiz based on the series and post a
 Day 5 is next: Tomorrow will be a jammed packed family day so there's a good chance I will not be able to work on the page, but I will definitely pick it up the following day. (09/22/2017)
 
 <h2>Day 5</h2>
-Day 5 is about adding a section with facts about our series. The assignment is to create a list with either facts or memorable quotes from the series. I chose to go with some fun facts. 
+Day 5 is about adding a section with facts about our series. The assignment is to create a list with either facts or memorable quotes from the series. I chose to go with some fun facts. We are also to search for a fun quiz about our series and include a link. The quiz I originally linked had a myriad of spelling and grammar errors, so I replaced it with another quiz.
+
+<h2>Day 6</h2>
+Day 6 is about wrapping up the project by including a footer. The Footer is to read "Made with love Copyright" and your name as a mailto link. Instead of spelling out love, use a font-awesome icon of a heart instead. 
+
+<h2>Day 7</h2>
+Last day of the project! This day we are to host on github (which I've been doing all along, so I'm done) (09/27/2017)
